@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="admin.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <img src="assets/images/logo.png" alt="">
+      <span class="logo_name"></span>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-box' ></i>
+            <span class="links_name">Contents</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-list-ul' ></i>
+            <span class="links_name">Subscriber list</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-pie-chart-alt-2' ></i>
+            <span class="links_name">Analytics</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-user' ></i>
+            <span class="links_name">Team</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-message' ></i>
+            <span class="links_name">Messages</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-heart' ></i>
+            <span class="links_name">Favrorites</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links_name">Setting</span>
+          </a>
+        </li>
+        <li class="log_out">
+          <a href="#">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">Log out</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Dashboard</span>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <i class='bx bx-search' ></i>
+      </div>
+      <div class="profile-details">
+        <!--<img src="images/profile.jpg" alt="">-->
+        <span class="admin_name">Admin</span>
+        <i class='bx bx-chevron-down' ></i>
+      </div>
+    </nav>
+
+    <div class="home-content">
+      <div class="overview-boxes">
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total Subscribers</div>
+            <div class="number">408</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Up from yesterday</span>
+            </div>
+          </div>
+          <i class='bx bx-cart-alt cart'></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Recent Subscribers</div>
+            <div class="number">388</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Up from yesterday</span>
+            </div>
+          </div>
+          <i class='bx bxs-cart-add cart two' ></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Earned Profit</div>
+            <div class="number">$128</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Up from yesterday</span>
+            </div>
+          </div>
+          <i class='bx bx-cart cart three' ></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total Return</div>
+            <div class="number">710</div>
+            <div class="indicator">
+              <i class='bx bx-down-arrow-alt down'></i>
+              <span class="text">Down From Today</span>
+            </div>
+          </div>
+          <i class='bx bxs-cart-download cart four' ></i>
+        </div>
+      </div>
+
+      <div class="sales-boxes">
+        <div class="recent-sales box">
+          <div class="title">Recent </div>
+          <div class="sales-details">
+            <ul class="details">
+              <li class="topic">Date</li>
+              <li><a href="#">01 Apr 2023</a></li>
+              <li><a href="#">15 Apr 2023</a></li>
+              <li><a href="#">15 Apr 2023</a></li>
+              <li><a href="#">01 Apr 2023</a></li>
+              <li><a href="#">01 Apr 2023</a></li>
+              <li><a href="#">01 Apr 2023</a></li>
+            </ul>
+            <ul class="details">
+            <li class="topic">Suscriber</li>
+            <li><a href="#">Ramisa Anan</a></li>
+            <li><a href="#">Mashrufa Nowrin</a></li>
+            <li><a href="#">Mahir Tajwar</a></li>
+            <li><a href="#">Tanjeel Ahmed</a></li>
+            <li><a href="#">Anika Khanom</a></li>
+            <li><a href="#">Farhan Sadiq</a></li>
+            
+          </ul>
+          <ul class="details">
+            <li class="topic">State</li>
+            <li><a href="#">New Subscriber</a></li>
+            <li><a href="#">Renewal Done</a></li>
+            <li><a href="#">Renewal Pending</a></li>
+            <li><a href="#">New Subscriber</a></li>
+            <li><a href="#">New Subscriber</a></li>
+            <li><a href="#">Renewal Done</a></li>
+            
+          </ul>
+          <ul class="details">
+            <li class="topic">Total</li>
+            <li><a href="#">$20.98</a></li>
+            <li><a href="#">$24.55</a></li>
+            <li><a href="#">$25.88</a></li>
+            <li><a href="#">$17.66</a></li>
+            <li><a href="#">$56.56</a></li>
+            <li><a href="#">$44.95</a></li>
+            
+          </ul>
+          </div>
+          <div class="button">
+            <a href="#">See All</a>
+          </div>
+        </div>
+        <div class="top-sales box">
+          <div class="title">Top Seling Content</div>
+          <ul class="top-sales-details">
+            <li>
+            <a href="#">
+              <img src="assets/images/movie-1.png" alt="">
+              <span class="product">Sonic the Hedgehog 2</span>
+            </a>
+            <span class="price">$110</span>
+          </li>
+          <li>
+            <a href="#">
+                <img src="assets/images/movie-2.png" alt="">
+              <span class="product">Morbius</span>
+            </a>
+            <span class="price">$156</span>
+          </li>
+          <li>
+            <a href="#">
+                <img src="assets/images/movie-3.png" alt="">
+              <span class="product">The Adam Project</span>
+            </a>
+            <span class="price">$123</span>
+          </li>
+          <li>
+            <a href="#">
+                <img src="assets/images/movie-4.png" alt="">
+              <span class="product">Free Guy</span>
+            </a>
+            <span class="price">$231</span>
+          </li>
+          <li>
+            <a href="#">
+                <img src="assets/images/movie-5.png" alt="">
+              <span class="product">The Batman</span>
+            </a>
+            <span class="price">$145</span>
+          </li>
+          <li>
+            <a href="#">
+                <img src="assets/images/movie-6.png" alt="">
+              <span class="product">Uncharted</span>
+            </a>
+            <span class="price">$235</span>
+          <li>
+            <a href="#">
+                <img src="assets/images/movie-7.png" alt="">
+              <span class="product">Death on the Nile</span>
+            </a>
+            <span class="price">$235</span>
+          </li>
+<li>
+            <a href="#">
+                <img src="assets/images/movie-8.png" alt="">
+              <span class="product">The King's Man</span>
+            </a>
+            <span class="price">$125</span>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+   let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".sidebarBtn");
+sidebarBtn.onclick = function() {
+  sidebar.classList.toggle("active");
+  if(sidebar.classList.contains("active")){
+  sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
+}else
+  sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+}
+ </script>
+
+</body>
+</html>
+
